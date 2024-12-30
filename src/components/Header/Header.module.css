@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  padding :5% ;
+  background-color: aliceblue;
+}
+
+.HeaderSuccess {
+  background-color: green;
+}
+.HeaderFailure {
+  background-color: red;
+}
+.HeaderSuccess .HeaderFailure {
+  padding :1rem;
+}

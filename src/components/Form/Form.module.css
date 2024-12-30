@@ -1,0 +1,16 @@
+/* Form.css */
+.input-text {
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-text.too-long {
+  border-color: red;
+}
+
+.dynamic-text {
+  font-size: 24px;
+  margin-top: 10px;
+}
